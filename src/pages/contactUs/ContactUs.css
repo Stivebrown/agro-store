@@ -1,0 +1,22 @@
+
+
+@media(max-width: 768px){
+    .contact-Wrapper{
+        height: 65rem;
+    }
+    .form-div{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .form-div div div input{
+        width: 18rem;
+    }
+    .form-btn{
+        margin-top: -1rem;
+    }
+    .contact-location{
+        display: flex;
+        flex-direction: column;
+    }
+}

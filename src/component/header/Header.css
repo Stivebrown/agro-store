@@ -1,0 +1,47 @@
+ 
+ .navLinks{
+    width: 90%;
+    margin: 0 auto;
+ }
+ 
+
+.menu{
+    display: none;
+}
+
+
+
+ 
+@media(max-width: 768px){
+    .logo{
+        width: 100%;
+        margin-top: -42px;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+         margin-left: 4rem;
+
+    }
+    .logo span{
+         
+    }
+    .navLinks .navlink{
+        display: none;
+        }
+
+    .menu{
+        display: flex;
+        margin: 0.5rem 0 0 2rem;
+        cursor: pointer;
+     }
+     .menuList{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        background-color: beige;
+        width: 100%;
+        height: 10rem;
+     }
+}
+
+
+ 

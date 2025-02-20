@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .Shop-Wrapper{
+        overflow-x: hidden;
+    }
+  .top-products {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  .top-products .top-title {
+    margin-left: 1rem;
+  }
+  .top-products div:first-child {
+    margin-left: 0rem;
+  }
+  .top-products div div img {
+    width: 100%;
+  }
+  .shop-cards {
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+     ;
+  }
+  .categories {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .shop-card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .shop-img {
+    width: 16rem;
+  }
+  .filter {
+    margin-top: -5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+}
