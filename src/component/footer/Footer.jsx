@@ -1,7 +1,13 @@
- import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import envelope from "../../assets/images/envelope-outline.svg";
 // import sofa from "../../assets/images/sofa.png";
-import { FaFacebook, FaPaperPlane, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaPaperPlane,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+} from "react-icons/fa";
 // import famer from "../../assets/images/famer.jpg";
 import "./Footer.css";
 
@@ -12,7 +18,6 @@ import "./Footer.css";
 // }
 const Footer = () => {
   return (
-    
     <>
       <footer className="py-5 bg-gradient-to-r from-green-400 to-green-600 shadow-lg text-black ">
         <div className="Footer-container relative px-4 ">
@@ -51,7 +56,9 @@ const Footer = () => {
                   </div>
                   <div className="">
                     <button className="bg-green-300 text-white p-3 rounded ">
-                      <span ><FaPaperPlane className=" "/></span>
+                      <span>
+                        <FaPaperPlane className=" " />
+                      </span>
                     </button>
                   </div>
                 </form>
@@ -62,37 +69,45 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-5">
             <div>
               <div className="mb-4 footer-logo-wrap">
-                <NavLink to="/" className="footer-logo text-3xl font-bold mt-3 text-green-300">
+                <NavLink
+                  to="/"
+                  className="footer-logo text-3xl font-bold mt-3 text-green-300"
+                >
                   Agro<span className="text-green-200">-</span>Store
                 </NavLink>
               </div>
               {/* p had a text-gray-500 */}
               <p className="mb-4 text-sm text-black leading-loose">
-                Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
-                quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
-                vulputate velit imperdiet dolor tempor tristique. Pellentesque
-                habitant
+               We ensure that nature's best haversts from Cameroon and other African countries reach global markets, including the USA, Canada, and Mexico.
               </p>
 
               <ul className="list-none flex space-x-4">
                 <li>
                   <NavLink to="*" className="text-green-300 text-xl">
-                    <span className="FaFacebook"><FaFacebook className="hover:text-green-700 rounded-lg"/></span>
+                    <span className="FaFacebook">
+                      <FaFacebook className="hover:text-green-700 rounded-lg" />
+                    </span>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="*" className="text-green-300 text-xl">
-                    <span className=""><FaTwitter className="hover:text-green-500 rounded-lg"/></span>
+                    <span className="">
+                      <FaTwitter className="hover:text-green-500 rounded-lg" />
+                    </span>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="*" className="text-green-300 text-xl">
-                    <span className="fa fa-brands fa-instagram "><FaInstagram className="hover:text-green-500 rounded"/></span>
+                    <span className="fa fa-brands fa-instagram ">
+                      <FaInstagram className="hover:text-green-500 rounded" />
+                    </span>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="*" className="text-green-300 text-xl">
-                    <span className="fa fa-brands fa-linkedin"><FaLinkedin className="hover:text-green-500 rounded "/></span>
+                    <span className="fa fa-brands fa-linkedin">
+                      <FaLinkedin className="hover:text-green-500 rounded " />
+                    </span>
                   </NavLink>
                 </li>
               </ul>
@@ -191,16 +206,19 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-           </div>
+          </div>
 
           <div className="copyright border-t border-green-700 pt-4 w-[90%]">
             <div className="flex justify-between">
               <div>
                 <p className="mb-2 text-center text-black">
                   Copyright &copy;
-                   <span></span>
-                  All Rights Reserved. &mdash; Designed with love by {" "}
-                  <NavLink to="/" className="text-green-950 hover:text-green-700">
+                  <span></span>
+                  All Rights Reserved. &mdash; Designed with love by{" "}
+                  <NavLink
+                    to="/"
+                    className="text-green-950 hover:text-green-700"
+                  >
                     StiveCode.co
                   </NavLink>
                 </p>

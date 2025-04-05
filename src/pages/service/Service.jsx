@@ -1,4 +1,3 @@
- 
 import bag from "../../assets/images/bag.svg";
 import truck from "../../assets/images/truck.svg";
 import Support from "../../assets/images/support.svg";
@@ -9,8 +8,8 @@ import "./Service.css";
 const Service = () => {
   return (
     <>
-    <Header/>
-     
+      <Header />
+
       <div className="w-[90%] mx-auto mt-[5rem]">
         <div className="service-Wrapper grid grid-cols-4 mr-3 leading-loose mb-8">
           <div className="p-1 m-2  ">
@@ -42,8 +41,7 @@ const Service = () => {
             </div>
             <h3 className="text-sm font-bold pb-2 pt-2">Easy to Shop</h3>
             <p className="text-sm">
-              Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-              velit. Aliquam vulputate.
+            Also secure payments, pay seamlessly via <span className="font-bold">Mobile, Bank Transfer, or PayPay</span>
             </p>
           </div>
 
@@ -69,11 +67,11 @@ const Service = () => {
               {/* <p className="bg-green-500 opacity-70 w-6 h-6 rounded-xl absolute top-[55rem] left-[23.2rem] z-index-0"></p> */}
             </div>
             <h3 className="text-sm  font-bold pb-2 pt-2">
-              Hassle Free Returns
+              Hussle Free Returns
             </h3>
             <p className="text-sm">
-              Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-              velit. Aliquam vulputate.
+            Hussle-free shipping to North America. Malesuada nullam ac aliquet
+            velit aliquam vulputate.
             </p>
           </div>
           <div className="p-1 m-2">
@@ -105,8 +103,7 @@ const Service = () => {
             </div>
             <h3 className="text-sm font-bold pb-2 pt-2">Easy to Shop</h3>
             <p className="text-sm">
-              Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-              velit. Aliquam vulputate.
+            Also secure payments, pay seamlessly via <span className="font-bold">Mobile, Bank Transfer, or PayPay</span>
             </p>
           </div>
 
@@ -132,16 +129,15 @@ const Service = () => {
               {/* <p className="bg-green-500 opacity-70 w-6 h-6 rounded-xl absolute top-[54.7rem] left-[57.5rem] z-index-0"></p> */}
             </div>
             <h3 className="text-sm  font-bold pb-2 pt-2">
-              Hassle Free Returns
+              Hussle Free Returns
             </h3>
             <p className="text-sm">
-              Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-              velit. Aliquam vulputate.
+            Hussle-free shipping to North America. Malesuada nullam ac aliquet
+            velit aliquam vulputate.
             </p>
           </div>
         </div>
       </div>
-      
     </>
   );
 };

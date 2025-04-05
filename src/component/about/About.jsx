@@ -20,6 +20,9 @@ const About = () => {
       <section className="about">
         {/* WhyUs section */}
         <WhyUs />
+        <div className="more-info w-[90%] m-auto p-8 bg-slate-100">
+          <p>Currently available as a Web-based platform. Agro-Store will soon expand with a mobile app for even greater convinience.</p>
+        </div>
         {/* Our Team section */}
         <div className="mt-[5rem]">
           <h1 className="text-3xl text-center mb-[3rem]">Our Team</h1>

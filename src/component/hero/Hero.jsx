@@ -3,9 +3,12 @@ import { NavLink } from "react-router-dom";
 import assortment from "../../assets/images/assortment.jpg";
 
 const Hero = () => {
-  const title = "Modern Products Distribution Around Countries";
-  const description =
-    "Welcome to our amazing best selling agro products site. Come and let maintain your exciting steez and make sure you will want to come .";
+  // const title = "Modern Products Distribution Around Countries";
+  // const description =
+  //   "Welcome to our amazing best selling agro products site. Come and let maintain your exciting steez and make sure you will want to come .";
+
+  const title= "Bringing Africa's Best Harvest to the World";
+  const description = "Agro-store is a premier e-commerce platform connecting consummers, wholesalers, and businesses with high-qualitiy agro-products sourced directly from African farms. Specializing in seeds like beans and fruits like bananas. We ensure that nature's best haversts from Cameroon and other African countries reach global markets, including the USA, Canada, and Mexico."
 
   return (
     <div className="heroBackground bg-gradient-to-t from-green-400 to-green-600 shadow-lg py-10 text-white">

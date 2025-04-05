@@ -39,8 +39,7 @@ const WhyUs = () => {
               </div>
               <h3 className="text-sm font-bold pb-2 pt-2">Easy to Shop</h3>
               <p className="text-sm">
-                Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-                velit. Aliquam vulputate.
+                Also secure payments, pay seamlessly via <span className="font-bold">Mobile, Bank Transfer, or PayPay</span>
               </p>
             </div>
 
@@ -63,8 +62,8 @@ const WhyUs = () => {
               </div>
               <h3 className="text-sm  font-bold pb-2 pt-2">Hassle Free Returns</h3>
               <p className="text-sm">
-                Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-                velit. Aliquam vulputate.
+                Hussle-free shipping to North America. Malesuada nullam ac aliquet
+                velit aliquam vulputate.
               </p>
             </div>
           </div>
