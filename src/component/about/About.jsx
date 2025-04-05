@@ -10,13 +10,9 @@ import person4 from "../../assets/images/person_4.jpg";
 // import Support from "../../assets/images/support.svg";
 import WhyUs from "../whyus/WhyUs";
 import "./About.css";
-import Header from "../header/Header";
-
 const About = () => {
   return (
     <>
-      <Header />
-
       <section className="about">
         {/* WhyUs section */}
         <WhyUs />

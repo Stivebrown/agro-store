@@ -1,12 +1,10 @@
 import { NavLink } from "react-router-dom";
 import { FaExclamationTriangle } from "react-icons/fa";
-import Header from "../../component/header/Header";
  
 
 const NotFoundPage = () => {
   return (
     <>
-    <Header/>
      
     <section className="text-center flex flex-col justify-center items-center h-96">
       <FaExclamationTriangle className="text-yellow-400 text-6xl mb-4" />

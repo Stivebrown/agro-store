@@ -1,18 +1,16 @@
 import { FaMapMarker, FaEnvelope, FaPhoneAlt} from "react-icons/fa";
-import Header from "../../component/header/Header";
 import "./ContactUs.css";
 
 
-// FaEyeSlash for password input field icon
+// FaEyeSlash htmlFor password input field icon
 const ContactUs = () => {
-    //handling the default submission of the form 
+    //handling the default submission of the htmlForm 
   const handleSubmit = (e) => {
     e.preventDefault();
   };
 
   return (
     <>
-       <Header/>
         
       <div className="contact-Wrapper w-[100%] bg-gray-200 h-[50rem]  ">
         <div className="w-[67%] mx-auto pt-10 leading-[3rem]">
@@ -47,11 +45,11 @@ const ContactUs = () => {
               
             </div>
           </div>
-          <form className="" onSubmit={handleSubmit}>
-            <div className="form-div grid grid-cols-2 gap-3">
+          <htmlForm className="" onSubmit={handleSubmit}>
+            <div className="htmlForm-div grid grid-cols-2 gap-3">
               <div className=" w-[25rem]">
                 <div className="  grid grid-cols-1">
-                  <label className="text-black text-[0.9rem]" for="fname">
+                  <label className="text-black text-[0.9rem]" htmlFor="fname">
                     First name
                   </label>
                   <input
@@ -63,7 +61,7 @@ const ContactUs = () => {
               </div>
               <div className="w-[25rem] ">
                 <div className=" grid grid-cols-1 ">
-                  <label className="text-black text-[0.9rem]" for="lname">
+                  <label className="text-black text-[0.9rem]" htmlFor="lname">
                     Last name
                   </label>
                   <input
@@ -77,7 +75,7 @@ const ContactUs = () => {
               </div>
             </div>
             <div className=" ">
-              <label className="text-black text-[0.9rem]" for="email">
+              <label className="text-black text-[0.9rem]" htmlFor="email">
                 Email address
               </label>
               <input
@@ -88,7 +86,7 @@ const ContactUs = () => {
             </div>
 
             <div className=" mb-5 w-full">
-              <label className="text-black text-[0.9rem]" for="message">
+              <label className="text-black text-[0.9rem]" htmlFor="message">
                 Message
               </label>
               <textarea
@@ -100,11 +98,11 @@ const ContactUs = () => {
 
             <button
               type="submit"
-              className="form-btn w-[10rem]  text-black rounded-3xl bg-green-500 hover:bg-green-400 mt-4"
+              className="htmlForm-btn w-[10rem]  text-black rounded-3xl bg-green-500 hover:bg-green-400 mt-4"
             >
               Send Message
             </button>
-          </form>
+          </htmlForm>
         </div>
       </div>
     </>

@@ -1,30 +1,39 @@
 @media (max-width: 768px) {
-    .Shop-Wrapper{
-        overflow-x: hidden;
-    }
-  .top-products {
+  .shopProducts {
+    overflow-x: hidden;
+  }
+  .shopProductWrapper {
+    width: 100%;
+    max-width: 1024px;
+  }
+  .shopItem {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    width: 100%;
+    max-width: 1024px;
   }
-  .top-products .top-title {
+  .shopItem .shopItemTitle {
     margin-left: 1rem;
   }
-  .top-products div:first-child {
+  .shopItem div:first-child {
     margin-left: 0rem;
   }
-  .top-products div div img {
+  .shopItem div div img {
     width: 100%;
   }
   .shop-cards {
     width: 26rem;
     display: flex;
     flex-direction: column;
-     ;
+    box-sizing: border-box;
+    flex: 3;
   }
   .categories {
     width: 90%;
     margin: 0 auto;
+    display: flex;
+    flex: 1;
   }
   .shop-card {
     width: 100%;
@@ -38,4 +47,8 @@
     margin-bottom: 2rem;
     margin-left: 1rem;
   }
+}
+
+.AddToCartBox {
+  box-sizing: border-box;
 }

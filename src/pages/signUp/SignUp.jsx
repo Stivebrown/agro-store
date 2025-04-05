@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react';
-import Header from "../../component/header/Header";
  
 
 const SignUp = () => {
@@ -35,7 +34,6 @@ const SignUp = () => {
 
   return (
    <>
-    <Header/>
      
     <div className="min-h-screen flex items-center justify-center bg-slate-100 p-6">
       <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-8">

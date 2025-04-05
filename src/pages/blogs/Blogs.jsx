@@ -1,20 +1,26 @@
 // import React from "react";
 import { NavLink } from "react-router-dom";
-// import Bow2 from "../assets/images/bowl-2.png";
-// import Bow3 from "../assets/images/bowl-3.png";
+import Beans1 from "../../assets/images/Beans1.jpg";
+import Beans2 from "../../assets/images/Beans2.jpg";
+import Beans3 from "../../assets/images/Beans3.jpg";
+import Beans4 from "../../assets/images/Beans4.jpg";
+import Beans5 from "../../assets/images/Beans5.jpg";
+import Beans6 from "../../assets/images/Beans6.jpg";
+import Banana1 from "../../assets/images/Banana1.jpg";
+import Banana2 from "../../assets/images/Banana2.jpg";
+
+
 import famer from "../../assets/images/famer.jpg";
-import Header from "../../component/header/Header";
 
 const Blogs = () => {
   return (
     <>
-      <Header />
       <div className="w-[90%] mx-auto mt-10 ">
         <div className="p-10 w-full">
           <div className="flex justify-between flex-wrap  mx-auto w-full">
-            <div className="w-[20.5rem] ">
-              <NavLink to="*" className="w-full">
-                <img src={famer} alt="Image" className=" w-full rounded-sm" />
+            <div className="w-[20.5rem]">
+              <NavLink to="*" className="h-[14rem] w-[20rem]">
+                <img src={Beans1} alt="Beans1" className="rounded-sm h-[14rem] w-[20rem]" />
               </NavLink>
               <div className="mt-3 text-center">
                 <h3 className="font-bold">
@@ -38,8 +44,8 @@ const Blogs = () => {
             </div>
 
             <div className="w-[20.5rem] ">
-              <NavLink to="*" className=" ">
-                <img src={famer} alt="Image" className=" w-full rounded-sm" />
+              <NavLink to="*" className="border-box">
+                <img src={Banana1} alt="Banana1" className=" rounded-sm h-[14rem] w-[20rem]" />
               </NavLink>
               <div className="mt-3 text-center">
                 <h3 className="font-bold">
@@ -64,7 +70,7 @@ const Blogs = () => {
 
             <div className="w-[20.5rem]  ">
               <NavLink to="*" className=" ">
-                <img src={famer} alt="Image" className=" w-full rounded-sm" />
+                <img src={Beans3} alt="Image" className="   rounded-sm h-[14rem] w-[20rem]" />
               </NavLink>
               <div className="mt-3 text-center">
                 <h3 className="font-bold">
@@ -91,7 +97,7 @@ const Blogs = () => {
 
             <div className="w-[20.5rem] mt-10">
               <NavLink to="*" className=" ">
-                <img src={famer} alt="Image" className=" w-full rounded-sm" />
+                <img src={Beans5} alt="Image" className=" h-[14rem] w-[20rem] rounded-sm" />
               </NavLink>
               <div className="mt-3 text-center">
                 <h3 className="font-bold">
@@ -117,9 +123,9 @@ const Blogs = () => {
             <div className="w-[20.5rem] mt-10">
               <NavLink to="*" className=" ">
                 <img
-                  src={famer}
+                  src={Banana2}
                   alt="Image"
-                  className=" w-full rounded-[1rem]"
+                  className="h-[14rem] w-[20rem] rounded-sm"
                 />
               </NavLink>
               <div className="mt-3 text-center">
@@ -145,7 +151,7 @@ const Blogs = () => {
 
             <div className="w-[20.5rem] mt-10">
               <NavLink to="*" className=" ">
-                <img src={famer} alt="Image" className=" w-full rounded-sm" />
+                <img src={Beans2} alt="Image" className="h-[14rem] w-[20rem] rounded-sm" />
               </NavLink>
               <div className="mt-3 text-center">
                 <h3 className="font-bold">
